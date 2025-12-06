@@ -30,11 +30,11 @@
                         <span class="hide-menu">FORM</span>
                     </li>
                     <li class="sidebar-item">
-                    <a class="sidebar-link" href="/register" aria-expanded="false">
+                    <a class="sidebar-link" href="{{ route('category.index') }}" aria-expanded="false">
                         <span>
                         <iconify-icon icon="solar:layers-minimalistic-bold-duotone" class="fs-6"></iconify-icon>
                         </span>
-                        <span class="hide-menu">Form Input</span>
+                        <span class="hide-menu">Category</span>
                     </a>
                     </li>
                 </ul>
